@@ -1,7 +1,6 @@
 body {
       background-color: #d3cdd0
 
-
 }
 
 h1 {
@@ -15,6 +14,76 @@ h2 {
 }
 
 #text_satu {
+  background: black;
   color : #6799f0;
   text-align: justify;
+  text-indent: 2px;
+
 }
+
+#pepanjang {
+  color: #6799f0;
+  text-align: justify;
+  text-indent: 30px;
+  letter-spacing: 2px;
+  word-spacing : 2px;
+  line-height : 20px;
+}
+
+#menu_wrep {
+  margin-top  :10px;
+  margin-botom :50px;
+}
+
+.menu1{
+  display : inline-block;
+  /*height: 50px;
+  weidht : 50px;*/
+  text-decoration :none;
+
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: 10px 5px;
+
+}
+
+
+/*keadaan link*/
+.menu1:link {
+  background: lightblue;
+  color: grey;
+}
+
+/*setelah dikunjungi*/
+.menu1:visited{
+  background: white;
+}
+
+/*setelah mouse berada diatasnya*/
+.menu1:hover{
+  background: yellow;
+}
+
+/*setelah ditekan*/
+.menu:active{
+  background: red;
+}
+
+
+  /* posisi css */
+
+/*
+  #menu_kontak{
+    position: relative;
+    left: 10px;
+
+  }
+
+  table{
+    float:left;
+    margin-right: 20px;
+  }
+  */
+
+  
