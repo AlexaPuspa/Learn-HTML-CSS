@@ -1,89 +1,32 @@
-body {
-      background-color: #d3cdd0
-
+body{
+  background-color: #c1c1c1;
+  text-decoration-style: solid;
+  text-transformation : sans-serif;
+  word-spacing: 2px;
+  text-align: center;
 }
 
-h1 {
-  color : #6799f0;
-  text-align: center;
+h1{
+  color : #0b3b52;
+  font-family :sans-serif;
+  font-weight: bold;
+
 }
 
 h2 {
-  color : #6799f0;
+  color : #105576;
+  font-weight :bold;
+}
+
+.gambar2{
+  height : 50px;
+  weight: 20px;
+}
+
+#wisata{
+  background-color: #c1c1c1;
+  text-decoration-style: solid;
+  text-transformation : sans-serif;
+  word-spacing: 2px;
   text-align: center;
 }
-
-#text_satu {
-  background: black;
-  color : #6799f0;
-  text-align: justify;
-  text-indent: 2px;
-
-}
-
-#pepanjang {
-  color: #6799f0;
-  text-align: justify;
-  text-indent: 30px;
-  letter-spacing: 2px;
-  word-spacing : 2px;
-  line-height : 20px;
-}
-
-#menu_wrep {
-  margin-top  :10px;
-  margin-botom :50px;
-}
-
-.menu1{
-  display : inline-block;
-  /*height: 50px;
-  weidht : 50px;*/
-  text-decoration :none;
-
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
-  padding: 10px 5px;
-
-}
-
-
-/*keadaan link*/
-.menu1:link {
-  background: lightblue;
-  color: grey;
-}
-
-/*setelah dikunjungi*/
-.menu1:visited{
-  background: white;
-}
-
-/*setelah mouse berada diatasnya*/
-.menu1:hover{
-  background: yellow;
-}
-
-/*setelah ditekan*/
-.menu:active{
-  background: red;
-}
-
-
-  /* posisi css */
-
-/*
-  #menu_kontak{
-    position: relative;
-    left: 10px;
-
-  }
-
-  table{
-    float:left;
-    margin-right: 20px;
-  }
-  */
-
-  
